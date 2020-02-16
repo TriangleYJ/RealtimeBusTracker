@@ -18,7 +18,7 @@
   },
   "scripts": {
     "start_client": "react-scripts start",
-    "start_server": "cd src/server & nodemon App.js",
+    "start_server": "cd src/server && nodemon App.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
