@@ -1,8 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
+/*function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -21,6 +20,28 @@ function App() {
       </header>
     </div>
   );
+}*/
+
+/*callRouteId = async(name) => {
+    let url = new URL("localhost:3001/api/getID");
+    url.search = new URLSearchParams({
+        type: "route",
+        name: name.toString()
+    });
+
+    const response = await fetch(url);
+    return await response.json();
+};*/
+
+
+class App extends React.Component{
+    render(){
+        return(
+            <div>
+              Hello world!
+            </div>
+        )
+    }
 }
 
 export default App;
